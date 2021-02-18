@@ -10,9 +10,7 @@ let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
 getFullName(p2); // => 'Charlie Brown'
 ***********************************************************************/
 
-function getFullName(person) {
-  // your code here
-}
+getFullName = (person) => person["firstName"] + " " + person["lastName"]
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = getFullName;
